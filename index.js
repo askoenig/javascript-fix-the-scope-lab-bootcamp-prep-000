@@ -28,6 +28,12 @@ var funkyFunction = function() {
 // NOTE: you only need to modify the code below this line.
 var theFunk = funkyFunction
 
+var funkyFunction = function() {
+  return function() {
+    return "FUNKY!"
+  }
+}
+
 
 var animal = "dog"
  
